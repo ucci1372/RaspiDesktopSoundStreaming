@@ -20,7 +20,7 @@ git clone https://github.com/ucci1372/RaspiDesktopSoundStreaming.git RaspiDeskto
 
 ファイルに実行権限を付加して下さい。
 ```bash
-cd raspi_desktop_sound_streaming/
+cd RaspiDesktopSoundStreaming/
 chmod +x ffmpeg_streaming.sh
 ```
 # Usage
@@ -56,4 +56,4 @@ tmux new-session -d -s rdss 'echo "/home/pi/www/live_streaming" | ./ffmpeg_strea
 
 # License
 
-"Raspi Desktop Sound Streaming" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"RaspiDesktopSoundStreaming" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
